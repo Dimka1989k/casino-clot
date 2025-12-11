@@ -86,11 +86,7 @@
   font-family: var(--font-poetsen);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #daf3a6;
-  }
-}
+
 
 body {
   background: var(--background);
