@@ -25,7 +25,7 @@ export function SpinButton() {
             <Image
               src={spinButton}
               alt="Spin Base"
-              className="absolute inset-0 w-full h-full z-10  xl:z-10 select-none"
+              className="absolute inset-0 w-full h-full z-0 select-none"
             />
             <div
               className={`

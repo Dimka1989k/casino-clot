@@ -3,6 +3,9 @@
 import { motion } from "framer-motion";
 import { useSlotLogic } from "@/app/hooks/useSlotLogic";
 import { Reel } from "@/app/components/Reel";
+import { BetControls } from "@/app/components/BetControls";
+import { SpinButton } from "@/app/components/SpinButton";
+import { Balance } from "@/app/components/Balance";
 import { WinModal } from "@/app/components/WinModal";
 import { LoseModal } from "@/app/components/LoseModal";
 
@@ -40,7 +43,10 @@ export function SlotMachine() {
                 />
               ))}
             </div>
-          </div>       
+          </div>
+          <BetControls />
+          <SpinButton />
+          <Balance />
         </div>
         <WinModal open={modalVisible && gameResult === "win"} />
         <LoseModal open={modalVisible && gameResult === "lose"} />
