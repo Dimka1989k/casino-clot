@@ -11,8 +11,8 @@ export function Balance() {
   const [jackInt, jackDec] = jackpot.toFixed(2).split(".");
 
   return (
-    <div className="flex justify-center items-end-safe">
-      <div className="flex flex-col absolute -bottom-82 max-[376px]:-bottom-65  min-[376px]:max-[480px]:-bottom-65   min-[480px]:max-[640px]:-bottom-65   min-[640px]:max-[1023px]:-bottom-90 min-[1024px]:max-[1280px]:-bottom-112 z-9999 bg-balance w-102.5 h-[123px] min-[375px]:max-[1023px]:w-62.5 min-[375px]:max-[1023px]:h-19 items-center justify-center">
+    <div className="flex justify-center">
+      <div className="flex flex-col absolute -bottom-32 max-[376px]:-bottom-32  min-[376px]:max-[480px]:-bottom-45   min-[480px]:max-[640px]:-bottom-65  min-[640px]:max-[1023px]:-bottom-23 z-9999 bg-balance w-102.5 h-[123px] min-[375px]:max-[1023px]:w-62.5 min-[375px]:max-[1023px]:h-19 items-center justify-center">
         <p className="absolute -top-8.5 max-md:-top-6  max-lg:-top-12 font-poetsen text-[55px]  max-md:text-[37px] text-gold font-outline-2 shadow-balance">
           {showJackpotBlock ? "JACKPOT" : "Balance"}
         </p>      
