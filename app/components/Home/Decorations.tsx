@@ -32,43 +32,43 @@ const decorations: Decoration[] = [
     src: select,
     alt: "select",
     className:
-      "size-5 animate-float absolute min-[769px]:hidden min-[376px]:max-[640px]:-bottom-20 min-[640px]:max-[769px]:bottom-14 min-[640px]:max-[769px]:left-114 left-60 -bottom-12 z-999",
+      "size-5 animate-float absolute min-[769px]:hidden min-[376px]:max-[640px]:-bottom-47 min-[640px]:max-[769px]:-bottom-70 min-[640px]:max-[769px]:left-114 left-60 -bottom-34 z-999",
   },
   {
     src: selectRightSmall,
     alt: "selectRightSmall",
     className:
-      "size-5 animate-float absolute min-[769px]:hidden min-[376px]:max-[640px]:-bottom-36 min-[640px]:max-[769px]:bottom-12 min-[640px]:max-[769px]:left-109 left-64 -bottom-27 z-999",
+      "size-5 animate-float absolute min-[769px]:hidden min-[376px]:max-[640px]:-bottom-36 min-[640px]:max-[769px]:-bottom-72 min-[640px]:max-[769px]:left-109 left-64 -bottom-50 z-999",
   },
   {
     src: selectLeft,
     alt: "selectLeft",
     className:
-      "size-5 animate-float absolute min-[769px]:hidden min-[376px]:max-[640px]:-bottom-52 min-[640px]:max-[769px]:bottom-1 min-[640px]:max-[769px]:left-45 left-31 -bottom-24 z-999",
+      "size-6 animate-float absolute min-[769px]:hidden min-[376px]:max-[640px]:-bottom-52 min-[640px]:max-[769px]:-bottom-70 min-[640px]:max-[769px]:left-45 left-31 -bottom-47 z-999",
   },
   {
     src: selectLeft,
     alt: "selectLeft-big",
     className:
-      "size-6 animate-float absolute min-[769px]:hidden min-[376px]:max-[640px]:-bottom-52 min-[640px]:max-[769px]:bottom-1 min-[640px]:max-[769px]:left-45 left-31 -bottom-24 z-999",
+      "animate-float absolute min-[769px]:hidden min-[376px]:max-[640px]:-bottom-52 min-[640px]:max-[769px]:-bottom-80 min-[640px]:max-[769px]:right-45 right-12 -bottom-62 z-99999",
   },
   {
     src: selectLeft,
     alt: "selectLeft-right",
     className:
-      "animate-float absolute min-[769px]:hidden min-[376px]:max-[640px]:-bottom-52 min-[640px]:max-[769px]:bottom-1 min-[640px]:max-[769px]:right-45 right-12 -bottom-38 z-9999",
+      "animate-float absolute min-[769px]:hidden min-[376px]:max-[640px]:-bottom-62 min-[376px]:max-[640px]:left-12 min-[640px]:max-[769px]:-bottom-86 min-[640px]:max-[769px]:left-45 left-10 -bottom-62 z-99999",
   },
   {
     src: selectBalance,
     alt: "selectBalance",
     className:
-      "animate-float absolute min-[769px]:hidden min-[376px]:max-[640px]:-bottom-52 min-[640px]:max-[769px]:bottom-1 min-[640px]:max-[769px]:left-45 left-10 -bottom-42 z-9999",
+      "animate-float absolute min-[769px]:hidden min-[376px]:max-[640px]:-bottom-37 min-[640px]:max-[769px]:-bottom-90 left-0 -bottom-46 z-999",
   },
   {
     src: SelectSmallHalf,
     alt: "SelectSmallHalf",
     className:
-      "animate-float absolute min-[769px]:hidden min-[376px]:max-[640px]:-bottom-37 min-[640px]:max-[769px]:bottom-6 left-0 -bottom-26 z-999",
+      "animate-float absolute min-[769px]:hidden min-[376px]:max-[640px]:-bottom-14 min-[640px]:max-[769px]:-bottom-79 left-0 -bottom-32 z-999",
   },
   {
     src: selectRightHalf,
@@ -80,7 +80,7 @@ const decorations: Decoration[] = [
     src: selectMobile,
     alt: "selectMobile",
     className:
-      "animate-float absolute min-[769px]:hidden min-[376px]:max-[640px]:-bottom-14 min-[640px]:max-[769px]:bottom-14 left-0 -bottom-10 z-999",
+      "animate-float absolute min-[769px]:hidden min-[376px]:max-[640px]:-bottom-14 min-[640px]:max-[769px]:-bottom-79 left-0 -bottom-32 z-999",
   },
   {
     src: crown,
@@ -104,49 +104,49 @@ const decorations: Decoration[] = [
     src: selectLeft,
     alt: "selectLeft-circle",
     className:
-      "w-9 h-9 animate-float absolute bottom-60 left-97 max-[769px]:hidden max-xl:left-60 max-xl:bottom-62 max-lg:bottom-56 max-lg:left-45",
+      "w-9 h-9 animate-float absolute -bottom-5 left-97 max-[769px]:hidden max-xl:left-60 max-xl:-bottom-30 max-lg:-bottom-26 max-lg:left-45 z-9999",
   },
   {
     src: selectRight,
     alt: "selectRight",
     className:
-      "w-9 h-9 animate-float absolute top-46 right-0 max-[769px]:hidden max-xl:right-20 max-xl:top-72 max-lg:top-76 max-lg:right-15",
+      "z-99999 w-9 h-9 animate-float absolute top-46 right-0 max-[769px]:hidden max-xl:right-20 max-xl:top-72 max-lg:top-76 max-lg:right-15",
   },
   {
     src: crystall,
     alt: "crystall",
     className:
-      "animate-float absolute top-96 right-0 max-[769px]:hidden max-xl:top-82 max-lg:top-86",
+      "z-99999 animate-float absolute top-96 right-0 max-[769px]:hidden max-xl:top-82 max-lg:top-86",
   },
   {
     src: selectLeft,
     alt: "selectLeft-large",
     className:
-      "w-[101px] h-[102px] animate-float absolute bottom-44 right-1 max-[769px]:hidden max-xl:right-1 max-xl:bottom-32 max-lg:bottom-35 max-lg:right-4",
+      "z-99999 w-[101px] h-[102px] animate-float absolute -bottom-23 right-1 max-[769px]:hidden max-xl:right-1 max-xl:-bottom-65 max-lg:-bottom-55 max-lg:right-4",
   },
   {
     src: numberLeft,
     alt: "numberLeft",
     className:
-      "z-999 animate-float absolute bottom-22 right-3 max-[769px]:hidden max-xl:right-2 max-xl:bottom-6 max-lg:bottom-15 max-lg:right-3",
+      "z-999 animate-float absolute -bottom-40 right-3 max-[769px]:hidden max-xl:right-2 max-xl:-bottom-85 max-lg:-bottom-75 max-lg:right-3",
   },
   {
     src: lemon,
     alt: "lemon",
     className:
-      "animate-float absolute bottom-24 right-57 max-[769px]:hidden max-xl:right-44 max-xl:bottom-12 max-lg:bottom-14 max-lg:right-26",
+      "z-99999 animate-float absolute -bottom-38 right-57 max-[769px]:hidden max-xl:right-44 max-xl:-bottom-82 max-lg:-bottom-77 max-lg:right-26",
   },
   {
     src: smile,
     alt: "smile",
     className:
-      "animate-float absolute bottom-23 left-6 max-[769px]:hidden max-xl:left-2 max-xl:bottom-8 max-lg:bottom-15 max-lg:left-3",
+      "z-99999 animate-float absolute -bottom-43 left-6 max-[769px]:hidden max-xl:left-2 max-xl:-bottom-88 max-lg:-bottom-65 max-lg:left-3",
   },
   {
     src: number,
     alt: "number",
     className:
-      "animate-float absolute bottom-23 left-102 max-[769px]:hidden max-xl:left-60 max-xl:bottom-16 max-lg:bottom-18 max-lg:left-35",
+      "z-999 animate-float absolute -bottom-42 left-113 max-[769px]:hidden max-xl:left-60 max-xl:-bottom-82 max-lg:-bottom-68 max-lg:left-35",
   },
 ];
 

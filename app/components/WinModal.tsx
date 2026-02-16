@@ -27,8 +27,8 @@ export function WinModal({ open }: Props) {
           <motion.img
             src="/bg-win.svg"
             alt="sun animation"
-            className="absolute w-[1600px] h-[1600px] max-w-none max-h-none object-cover"
-            style={{ transformOrigin: "center center" }}
+            className="absolute w-full h-full object-content"
+            style={{ transformOrigin: "center" }}
             animate={{ rotate: 360 }}
             transition={{ repeat: Infinity, duration: 0.5, ease: "linear" }}
           />

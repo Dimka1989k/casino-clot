@@ -18,7 +18,7 @@ export function BetControls() {
   } = useBetControls();
 
   return (
-    <div className="flex flex-col items-center justify-center gap-4.5 mt-4.5">
+    <div className="flex flex-col items-center justify-center gap-4.5 mt-4.5 max-sm:mt-24">
       <p className="text-blue text-bungee drop-shadow-bit font-outline-bit">
         Place a bid
       </p>
